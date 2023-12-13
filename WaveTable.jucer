@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="f1HMX5" name="WaveTable" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="A9dboV" name="WaveTable">
+    <GROUP id="{E87EBD55-6FCD-9A0C-6FB0-14D5DF3A5027}" name="Source">
+      <FILE id="fnPW5g" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="oK8qob" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="nsmOE8" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+    <FILE id="CPTpDa" name="SampleFunctions.h" compile="0" resource="0"
+          file="Source/SampleFunctions.h"/>
+    <FILE id="zlk58h" name="TableBuilder.cpp" compile="1" resource="0"
+          file="Source/TableBuilder.cpp"/>
+    <FILE id="jjNo6q" name="TableBuilder.h" compile="0" resource="0" file="Source/TableBuilder.h"/>
+    <FILE id="mfj7cJ" name="WaveTableOscillator.h" compile="0" resource="0"
+          file="Source/WaveTableOscillator.h"/>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="WaveTable"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="WaveTable"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../usr/share/juce/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../usr/share/juce/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
